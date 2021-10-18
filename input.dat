@@ -1,0 +1,47 @@
+Ensemble (CEMC, GCEMC)
+CEMC
+Size: X,  Y,  Z
+      10  10  7
+NumberOfNode
+140
+ParticleType  matrixType templatedType SlitPore(1: YES, 0: NO)
+1                0             0          1
+ParticleParameter
+Type (i.e. HS, LJ, SW)
+LJ
+Diameter  Number    Depth     Width    ChemP       lambda
+1.0        280       1.0        1      -2.95006      1.0
+MatrixParameter
+Type (i.e. HS, LJ, SW)
+HS
+Structure (2: file, 1: order, 0: random)
+0
+Diameter  Number    Depth    Width
+1.0        100         0        1
+TemplatedParameter
+Type (i.e. HS, LJ, SW)
+HS
+Diameter  Number   Depth    Width
+2.0        50      0.5      0.5
+NumberOfConfigurations
+1
+MatrixForm (i.e. HS, OHS)
+HS
+SlitPoreForm (i.e. LJ, SW)
+SW
+depthOfWell widthOfWell
+0.0             1
+depthOfObstacle widthOfObstacle
+0.0                0.0
+NumberOfCycles
+2000
+NumberOfInitializationCycles
+1000
+Beta
+1.
+CutOffDistance
+5
+MaximumDisplacement
+0.6
+PrintForm (i.e. screen, text)
+text
